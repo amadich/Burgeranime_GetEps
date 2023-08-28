@@ -71,5 +71,5 @@ async def on_message(message):
         except asyncio.TimeoutError:
             await message.channel.send("Time limit exceeded. Please try again.")
 
-bot_token = 'MTE0NTY0NzgxMzgwNDQzNzUzNQ.Goa9Vk.4qVoy7cDJuU-dKeLB_OdYxU0RW8qAZthe_gBQU'
+bot_token = 'TOKEN'
 client.run(bot_token)
